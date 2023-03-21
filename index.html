@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Web Team Task BARC</title>
+  <style>
+    /* Sticky navbar */
+    .navbar {
+      position: unset;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Navbar logo */
+    .navbar img { 
+      height: 100px;
+    }
+
+    /* Navbar links */
+    .navbar ul {
+      list-style: none;
+      display: flex;
+    }
+
+    .navbar li {
+      margin-left: 20px;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: navy;
+      font-size: 18px;
+      transition: all 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #aaa;
+    }
+
+    /* Sections */
+    section {
+      height: 200vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+    }
+
+    section:nth-child(odd) {
+      background-color: navajowhite;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <img src="C:\Users\91909\OneDrive - iitkgp.ac.in\Documents\Apna College html\web task img.png" alt="My Webtask Logo">
+    <ul>
+      <li><a href="#Home page">About</a></li>
+      <li><a href="#About us">Services</a></li>
+      <li><a href="#Tours">Tours</a></li>
+      <li><a href="#contact Us">Contact Us</a></li>
+      <li><a href="#footer">footer</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="Home page">
+    <h1>Welcome to My WEB task BARC</h1>
+  </section>
+  <br>
+
+  <!-- About Section -->
+  <section id="#About us">
+    <h1>About Us</h1>
+        <p>We are a leading company in the field of web development and design, with a proven track record of delivering high-quality websites and web applications to clients all over the world. Our team consists of experienced developers and designers who are passionate about their work and dedicated to delivering outstanding results.</p>
+        <ul>
+          <li><strong>Founded:</strong> 2010</li>
+          <li><strong>Employees:</strong> 50+</li>
+          <li><strong>Clients:</strong> 500+</li>
+          <li><strong>Projects Completed:</strong> 1000+</li>
+        </ul>
+        <h3>Our Achievements</h3>
+        <ol>
+          <li>Won Best Web Development Company Award in 2015</li>
+          <li>Featured in Forbes Top 50 Web Development Companies in 2018</li>
+          <li>Received an A+ rating from the Better Business Bureau</li>
+        </ol>
+        <h3>Reviews</h3>
+        <blockquote>
+          <p>"Working with this company was a great experience. Their team was professional, responsive, and delivered a high-quality website that exceeded our expectations. I would highly recommend them to anyone looking for web development services."</p>
+          <cite>John Doe, CEO of XYZ Company</cite>
+        </blockquote>
+      </section>
+      <br
+
+  <!--Services Section -->
+  <section id="Tours">
+    <h1>Our Services</h1>
+    <div class="card">
+        <img src="C:\Users\91909\OneDrive - iitkgp.ac.in\Documents\Apna College html\bali img.jpg" alt="Tour 1">
+        <div class="card-body">
+          <h3 class="card-title">Tour 1</h3>
+          <h4 class="card-destination">Destination: Paris, France</h4>
+          <p class="card-text">Join us for an unforgettable tour of the City of Light. Visit the Eiffel Tower, the Louvre Museum, and enjoy some of the finest French cuisine.</p>
+          <a href="tour1.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="C:\Users\91909\OneDrive - iitkgp.ac.in\Documents\Apna College html\france img.jpg" alt="Tour 2">
+        <div class="card-body">
+          <h3 class="card-title">Tour 2</h3>
+          <h4 class="card-destination">Destination: Bali, Indonesia</h4>
+          <p class="card-text">Escape to paradise with our tour of Bali. Relax on pristine beaches, explore ancient temples, and experience the unique culture of this island paradise.</p>
+          <a href="tour2.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <br>
+
+  <!-- Contact Section -->
+  <section id="Contact Us">
+    <h1>Contact Us</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <br>
+
+  <!--Footer Section-->
+  <section id="Footer">
+    <footer>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+        <div class="demo-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Copyright Information</a>
+        </div>
+        
+        <div class="back-to-top">
+          <a href="#top" class="smooth-scroll">
+            <i class="fas fa-arrow-up"></i> Back to top
+          </a>
+        </div>
+      </footer>
+      <br>
+
+  </section>
